@@ -1,0 +1,13 @@
+server:
+  port: 8000
+
+eureka:
+  instance:
+    instance-id: sangjiaqin
+  client:
+    service-url:
+      defaultZone: http://localhost:8100/eureka/
+      
+spring:
+  application:
+    name: my_application_name
